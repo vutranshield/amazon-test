@@ -32,7 +32,7 @@ $ git clone https://github.com/vutranshield/amazon-test.git
 Then, move to the project folder and install the needed libraries
 
 ```
-$ cd Amazon
+$ cd amazon-test
 $ npm install
 ```
 
