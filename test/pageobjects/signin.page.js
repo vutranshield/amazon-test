@@ -38,7 +38,19 @@ class SignInPage {
     fillInPassword(passwd) {
         this.inputPassword.setValue(passwd)
         this.btnSignIn.click()
-        return HomePage
+        return this;
+    }
+
+    selectOtpDevice(device) {
+        $(`//input[contains(@value, "${device}")]`).click();
+        $('#auth-send-code').click();
+        return this;
+    }
+
+    fillInOtp(otp) {
+        $('#auth-mfa-otpcode').setValue(otp);
+        $('#auth-signin-button').click();
+        return HomePage;
     }
 }
 

@@ -1,8 +1,16 @@
 export const user = {
-    email: 'redbull1990s@gmail.com',
-    phoneNumber: '0359551141',
-    password: 'sbtest',
-    name: 'Jack',
+    normal: {
+        email: 'aliasrango1990s@gmail.com',
+        phoneNumber: '0359551141',
+        password: 'sbtest',
+        name: 'Jack',
+    },
+    otp: {
+        email: 'redbull1990s@gmail.com',
+        phoneNumber: '5202241060',
+        password: 'sbtest',
+        name: 'Jack',
+    }
 }
 
 export const invalidEmail = [
