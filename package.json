@@ -6,6 +6,9 @@
   "dependencies": {
     "@wdio/cli": "^7.3.0"
   },
+  "scripts": {
+    "express": "node ./otp/server.js"
+  },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.14",
@@ -16,7 +19,10 @@
     "@wdio/spec-reporter": "^7.3.0",
     "@wdio/sync": "^7.3.0",
     "chromedriver": "^89.0.0",
+    "express": "^4.17.1",
     "prettier": "^2.2.1",
+    "twilio": "^3.59.0",
+    "twilio-cli": "^2.20.0",
     "wdio-chromedriver-service": "^7.0.0"
   }
 }
